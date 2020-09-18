@@ -89,11 +89,11 @@ class labyrinthe:
         return g
 
     def plot_lab(self): #affichage du labyrinthe
-        plt.imshow(self.grid())
+        plt.imshow(self.grid(), cmap="Greys")
         plt.show()
 
 
-L = labyrinthe(10)
+L = labyrinthe(30)
 
 while L.parfait() != True:
     L.link()
