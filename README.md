@@ -1,5 +1,4 @@
 # labyrinthe
 Générateur de labyrinthe en python
 
-test conflit
-édition par Yace
+![Exemple](https://raw.githubusercontent.com/Yaceee/labyrinthe/master/exemple.png)
